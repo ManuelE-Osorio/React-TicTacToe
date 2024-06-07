@@ -56,7 +56,39 @@
     padding: 0;
   }
   
-  .square {
+  .cross {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    color: #ff0000;
+  }
+
+  .circle {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    color: rgba(0, 60, 255, 0.733);
+  }
+
+  .empty {
     background: #fff;
     border: 1px solid #999;
     float: left;
